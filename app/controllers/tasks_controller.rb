@@ -47,7 +47,7 @@ class TasksController < ApplicationController
   def destroy
     @task.destroy!
 
-    redirect_to @project
+    redirect_to @project, status: :see_other
   end
 
   private
