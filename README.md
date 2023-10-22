@@ -43,6 +43,13 @@ Run the following commands in order:
 ## DB Migrate
 ```rails db:migrate```
 
+## Fix possible Javascript issues
+```bin/rails assets:precompile```
+
+```yarn add @babel/plugin-proposal-private-methods```
+
+``` yarn add -D @babel/plugin-proposal-private-property-in-object```
+
 # Running the project
 ```rails s```
 
