@@ -48,7 +48,7 @@ Run the following commands in order:
 
 ```yarn add @babel/plugin-proposal-private-methods```
 
-``` yarn add -D @babel/plugin-proposal-private-property-in-object```
+```yarn add -D @babel/plugin-proposal-private-property-in-object```
 
 # Running the project
 ```rails s```
